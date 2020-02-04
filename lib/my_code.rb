@@ -28,16 +28,12 @@ def map_to_square(source_array)
   return new_array
 end
 
-def reduce_to_total(source_array, starting_point=nil)
-  total = 0 
+def reduce_to_total(source_array, starting_point)
+  total = starting_point
   for i in source_array
   total += i 
 end
-if starting_point=nil
-  return total
-else
-  return starting_point
-end
+return total
 end
 
 def reduce_to_all_true(source_array)
