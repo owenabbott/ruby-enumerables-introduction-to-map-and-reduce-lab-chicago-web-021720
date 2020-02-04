@@ -47,9 +47,12 @@ end
 end
 
 def reduce_to_any_true(source_array)
+  value = false
   for i in source_array
   if i== true 
-    return true
+    value = true
   end
 end
+return value
+  
 end
