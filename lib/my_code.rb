@@ -15,14 +15,14 @@ end
 def map_to_double(source_array)
   new_array=[]
   for i in source_array
-  new_array.push(source_array*2)
+  new_array.push(i*2)
   end
 end
 
 def map_to_square(source_array)
   new_array=[]
   for i in source_array
-  new_array.push(source_array**2)
+  new_array.push(i**2)
   end
 end
 
