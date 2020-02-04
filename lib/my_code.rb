@@ -38,14 +38,7 @@ end
 
 
 def reduce_to_all_true(source_array)
-  for i in source_array
-    if i=0
-  return false
-else
-  return true
-end
-end
-end
+  pp source_array
 
 def reduce_to_any_true(source_array)
   
