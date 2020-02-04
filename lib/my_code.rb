@@ -35,6 +35,8 @@ def reduce_to_total(source_array, starting_point=nil)
 end
 if starting_point=nil
   return total
+else
+  return starting_point
 end
 end
 
