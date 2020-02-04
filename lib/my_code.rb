@@ -39,7 +39,7 @@ end
 
 def reduce_to_all_true(source_array)
   for i in source_array
-    i>0?
+    i!=0?
   return true
   end
   end
